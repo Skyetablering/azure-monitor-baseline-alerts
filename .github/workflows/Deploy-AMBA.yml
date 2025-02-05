@@ -14,7 +14,7 @@ env:
 jobs:
   deploy_job:
     runs-on: ubuntu-latest
-    environment: deploy
+    environment: Demo-SVV
 
     steps:
       - name: Checkout Repo

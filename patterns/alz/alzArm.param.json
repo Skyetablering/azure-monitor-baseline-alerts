@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "iac_skytjenester"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "demo-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "demo-identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "demo-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "demo-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "demo-landing-zones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -72,13 +72,13 @@
       "value": "id-amba-prod-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "c802637b-c744-4f8c-8e11-a39e11a98607"
     },
     "ALZMonitorResourceGroupName": {
       "value": "rg-amba-monitoring-001"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "norwayeast"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -97,7 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": ["robert.eriksson@vegvesen.no", "kim.stordal.toftner@vegvesen.no", "tommy.johannessen@vegvesen.no"]
     },
     "ALZLogicappResourceId": {
       "value": ""
@@ -112,7 +112,7 @@
       "value": []
     },
     "ALZWebhookServiceUri": {
-      "value": []
+      "value": ["https://prod-199.westeurope.logic.azure.com:443/workflows/abc4ac4828c949a68e189c4aa93690b8/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=xzU21vEx1-klc53hG1HCGI0YtTRjDEoeqV7GzW73OTE"]
     },
     "ALZFunctionResourceId": {
       "value": ""
